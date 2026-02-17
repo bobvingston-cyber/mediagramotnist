@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Висновки — Медіаграмотність</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0d47a1;
+            --primary-dark: #002171;
+            --accent: #ff6d00;
+            --gold: #ffc107;
+            --light-bg: #f8faff;
+            --dark: #0a192f;
+        }
+        body {
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--light-bg);
+            color: #1a237e;
+        }
+        .navbar {
+            background: linear-gradient(90deg, var(--primary), var(--primary-dark)) !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            font-weight: 500;
+            color: white !important;
+            transition: all 0.25s;
+        }
+        .nav-link:hover {
+            color: var(--accent) !important;
+            background: rgba(255,255,255,0.12);
+            border-radius: 6px;
+        }
+        .nav-link.active {
+            color: var(--accent) !important;
+            font-weight: 600;
+            background: rgba(255,255,255,0.18);
+            border-radius: 6px;
+        }
+        .section-hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 140px 0 100px;
+            text-align: center;
+        }
+        .conclusion-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+            margin-bottom: 30px;
+        }
+        .conclusion-icon {
+            font-size: 4rem;
+            color: var(--gold);
+            margin-bottom: 25px;
+        }
+        .list-check li {
+            font-size: 1.15rem;
+            margin-bottom: 1.2rem;
+        }
+        .list-check i {
+            color: var(--gold);
+            margin-right: 12px;
+            font-size: 1.4rem;
+        }
+        footer {
+            background: var(--dark);
+            color: #b0bec5;
+            padding: 4rem 0 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Навігація -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-shield-halved me-2"></i>Медіаграмотність
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" href="problem.html">Проблема</a></li>
+                    <li class="nav-item"><a class="nav-link" href="theory.html">Теорія</a></li>
+                    <li class="nav-item"><a class="nav-link" href="methods.html">Методи</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tools.html">Інструменти</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cases.html">Кейси 2025–2026</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ai-disinfo.html">ШІ та дезінформація</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="conclusion.html">Висновки</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Заголовок розділу -->
+    <section class="section-hero">
+        <div class="container">
+            <h1 class="display-2 fw-bold mb-4">Висновки</h1>
+            <p class="lead fs-3 col-lg-10 mx-auto">
+                Медіаграмотність у 2026 році — це не опція, а стратегічна необхідність для виживання суспільства в епоху ШІ та гібридної війни
+            </p>
+        </div>
+    </section>
+
+    <!-- Основний контент -->
+    <section class="py-5">
+        <div class="container py-4">
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+
+                    <div class="conclusion-card text-center">
+                        <i class="fas fa-graduation-cap conclusion-icon"></i>
+                        <h2 class="fw-bold mb-4">Головні тези дипломної роботи</h2>
+                        <ul class="list-unstyled list-check mx-auto" style="max-width: 800px;">
+                            <li><i class="fas fa-check-circle"></i>Дезінформація та ШІ-контент — одна з топ-загроз сучасності (WEF 2025–2026)</li>
+                            <li><i class="fas fa-check-circle"></i>В Україні фейки активно використовуються в ІПСО: маніпуляції союзниками, деморалізація, deepfake</li>
+                            <li><i class="fas fa-check-circle"></i>Класичні методи (джерело + текст) + технічні інструменти (reverse search, AI-детектори) дають 85–95% ефективності</li>
+                            <li><i class="fas fa-check-circle"></i>Наймасовіший тренд 2025–2026 — короткий синтетичний контент (8–30 секунд), який поширюється швидше за фактчек</li>
+                            <li><i class="fas fa-check-circle"></i>Медіаграмотність = критичне мислення + звичка перевірки + використання інструментів</li>
+                        </ul>
+                    </div>
+
+                    <div class="conclusion-card">
+                        <h3 class="fw-bold mb-4 text-center"><i class="fas fa-lightbulb me-3" style="color: var(--gold);"></i>Рекомендації</h3>
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <h5 class="fw-bold mb-3">Для громадян</h5>
+                                <ul class="list-unstyled fs-5">
+                                    <li><i class="fas fa-check text-success me-3"></i>Пауза 30 секунд перед репостом</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Перевіряй 2–3 незалежні джерела</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Встанови NewsGuard + InVID + Hive Moderation</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Вчися розпізнавати емоційну маніпуляцію</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h5 class="fw-bold mb-3">Для освіти та держави</h5>
+                                <ul class="list-unstyled fs-5">
+                                    <li><i class="fas fa-check text-success me-3"></i>Інтеграція медіаграмотності в шкільну програму</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Підтримка StopFake, VoxCheck, Molfar</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Розробка національних AI-детекторів та watermarking</li>
+                                    <li><i class="fas fa-check text-success me-3"></i>Громадські кампанії проти ІПСО</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="conclusion-card text-center">
+                        <i class="fas fa-rocket conclusion-icon" style="color: var(--gold);"></i>
+                        <h2 class="fw-bold mb-4">Перспективи та подяка</h2>
+                        <p class="lead fs-4 mb-4">
+                            У 2026–2027 роках медіаграмотність стане обов'язковою навичкою, як читання та письмо. Без неї суспільство стає вразливим до будь-якої маніпуляції.
+                        </p>
+                        <p class="fs-3 fw-bold mt-5 mb-4" style="color: var(--primary);">
+                            Дякую за увагу!
+                        </p>
+                        <p class="fs-5 text-muted">
+                            Богдан, Рівне, 2026<br>
+                            Дипломна робота з медіаграмотності та протидії дезінформації
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-1">© 2026 • Дипломна робота • Богдан (Львів)</p>
+            <p class="small text-muted">Медіаграмотність як інструмент національної стійкості</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
